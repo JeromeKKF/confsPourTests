@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: eurekacoffee
+
+build:
+  version: "3.0.X"
+
+account:
+  message: "Welcome to the EurekaCoffee App"
