@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: coffeemachine
+
+build:
+  version: "2.0"
+
+account:
+  message: "Welcome to the Coffee App Q&A"
+  details:
+    name: "Joe"
+    email: "joe@joe.joe"
+  phone:
+  - 0202020222
+  - 03303303030303

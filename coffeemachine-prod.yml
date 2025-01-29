@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: coffeemachine
+  datasource:
+    url: jdbc:mysql://localhost:3306/coffeesmachineforcloud?createDatabaseIfNotExist=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: ''
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+build:
+  version: "1.0"
+
+account:
+  message: "Welcome to the Coffee App Prod"
+  details:
+    name: "Joe"
+    email: "joe@joe.joe"
+  phone:
+  - 0202020222
+  - 03303303030303
