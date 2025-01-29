@@ -1,25 +1,16 @@
 spring:
   application:
     name: coffeemachine
-  profiles:
-    active:
-    - "prod" 
-  config:
-    import:
-    - "configserver:"
-  cloud:
-    config:
-      uri:
-      - "http://localhost:8071"
-      
+
+
 build:
   version: "3.0"
 
 account:
-  message: "Welcome to the Coffee App"
+  message: "Welcome to Coffee App"
   details:
-    name: "Joe"
-    email: "joe@joe.joe"
+    name: "Bob"
+    email: "kjkj@kjlk.fr"
   phone:
-  - 0202020222
-  - 03303303030303
+  - 029878798
+  - 009090090
