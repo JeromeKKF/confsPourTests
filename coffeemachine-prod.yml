@@ -18,7 +18,7 @@ build:
   version: "1.0"
 
 account:
-  message: "Welcome to Coffee Prod"
+  message: "Welcome to Coffee Prod Via GITHUB"
   details:
     name: "Bob"
     email: "kjkj@kjlk.fr"
