@@ -13,12 +13,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
     hibernate:
       ddl-auto: update
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: "http://localhost:8070/eureka/"
-    
+   
 build:
   version: "1.0"
 
