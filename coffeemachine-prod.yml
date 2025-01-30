@@ -17,6 +17,11 @@ spring:
 build:
   version: "1.0"
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "http://localhost:8070/eureka/"
+      
 account:
   message: "Welcome to Coffee Prod Via GITHUB"
   details:
