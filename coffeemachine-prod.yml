@@ -21,7 +21,13 @@ eureka:
   client:
     serviceUrl:
       defaultZone: "http://localhost:8070/eureka/"
-      
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - *
+        
 account:
   message: "Welcome to Coffee Prod Via GITHUB"
   details:
