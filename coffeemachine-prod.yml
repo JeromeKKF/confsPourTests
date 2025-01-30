@@ -32,8 +32,13 @@ management:
     web:
       exposure:
         include: '*'
-  info:
-    env:
+
+info:
+  app:
+    name: "gatewaycoffee"
+    description: "Gateway Coffee"
+    version: "2.0"
+  env:
       enabled: true
   endpoint:
     shutdown:
